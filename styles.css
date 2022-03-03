@@ -1,0 +1,709 @@
+:root {
+    --pri-light: #DCF2ED;
+    --dark-green: #20484F;
+    --pri-green: #B8E4DA;
+    --pale-gray: #FAFAFA;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--pale-gray);
+}
+
+.btn-light {
+    display: flex;
+    padding: 10px 16px;
+    position: static;
+    width: 82px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    background: #B8E4DA;
+    border-radius: 8px;
+    text-size-adjust: 16px;
+}
+
+.btn-In {
+    display: flex;
+    position: static;
+    width: 72px;
+    height: 41px;
+    left: 94px;
+    top: 0px;
+    background: #20484F;
+    border-radius: 8px;
+
+}
+
+.btn.wite {
+    border-radius: 8px;
+    padding: 16px 36px 15px;
+    font-size: 18px;
+    color: var(--dark-green);
+    background-color: white;
+    position: absolute;
+    left: 295px;
+    top: 570px;
+    border: 1px solid rgba(32, 72, 79, 0.3);
+}
+
+.btn.dark {
+    border-radius: 8px;
+    padding: 16px 36px 15px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--dark-green);
+    position: absolute;
+    left: 139px;
+    top: 570px;
+}
+
+
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 75px;
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    left: 40px;
+    top: 25px;
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;  
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 0;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: yellowgreen;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .left h7 {
+    position: absolute;
+    width: 239px;
+    height: 23px;
+    left: 139px;
+    top: 255px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #20484F; 
+}
+
+.hero .left h1 {
+    position: absolute;
+    width: 557px;
+    height: 154px;
+    left: 139px;
+    top: 264px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #072125;
+}
+
+.hero .left .wave {
+    position: absolute;
+    width: 412px;
+    height: 233px;
+    left: 320px;
+    top: 330px;
+}
+
+
+.hero .left p {
+    position: absolute;
+    width: 483px;
+    height: 72px;
+    left: 139px;
+    top: 470px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #072125;
+}
+
+
+.hero .right .main .frame {
+    position: absolute;
+    width: 541px;
+    height: 601px;
+    left: 805px;
+    top: 80px;
+}
+
+.actual {
+    position: absolute;
+    width: 415px;
+    height: 490px;
+    left: 875px;
+    top: 125px;
+    border-radius: 12px;
+}
+
+.right .wrapper {
+    display: inline-block;
+}
+
+.cards {
+    display: flexbox;
+}
+
+.pro {
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    box-shadow: 0px 4px 40px rgba(138, 138, 138, 0.04);
+    border-radius: 12px;
+}
+
+.ring-frame {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 1060px;
+    top: 170px;
+}
+
+.ring-actual {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 1065px;
+    top:175px;
+}
+
+.content h3{
+    position: absolute;
+    width: 218px;
+    height: 30px;
+    left: 1150px;
+    top: 155px;
+}
+.pro-cont {
+    position: absolute;
+    width: 224px;
+    height: 24px;
+    left: 1150px;
+    top: 200px;
+    font-size: 14px;
+}
+
+.card-task {
+    display: flexbox;
+}
+
+.update {
+    position: absolute;
+    width: 432px;
+    height: 193px;
+    left: 750px;
+    top: 460px;
+}
+
+.circle {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 825px;
+    top: 525px;
+}
+
+.circle-content {
+    position: absolute;
+    left: 845px;
+    top: 545px;
+}
+
+.card-task h4 {
+    position: absolute;
+    left: 920px;
+    top: 505px;
+    font-size: 18px;
+}
+
+.line1 {
+    position: absolute;
+    left: 920px;
+    top: 570px;
+}
+
+.line2 {
+    position: absolute;
+    left: 920px;
+    top: 595px;
+}
+
+.fake {
+    position: absolute;
+    left: 920px;
+    top: 630px;
+}
+
+.section .popular {
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.work-text {
+    position: relative;
+    justify-content: center;
+    width: 699px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    left: 421px;
+    top: 101px;
+    color: var(--dark-green);
+}
+
+.company {
+    display: inline-block;
+}
+
+.sony {
+    position: absolute;
+    left: 259px;
+    top: 861px;
+}
+
+.louis {
+    position: absolute;
+    left: 490px;
+    top: 856px;
+    font-size: 22px;
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.slack {
+    position: absolute;
+    left: 789px;
+    top: 851px;
+}
+
+.fabook {
+    position: absolute;
+    left: 1070px;
+    top: 845px;
+    font-size: 30px;
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 865px;
+}
+
+.left-wrap {
+    display: flexbox;
+}
+
+.left-wrap h2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--dark-green);
+    width: 530px;
+    height: 80px;
+    left: 120px;
+    top: 980px;
+}
+
+.left-wrap .h2p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-green);
+    width: 530px;
+    height: 200px;
+    left: 120px;
+    top: 1110px;
+}
+
+.support .gen-box {
+    position: absolute;
+    left: 120px;
+    top: 1200px;
+}
+
+.support-icon {
+    position: absolute;
+    left: 135px;
+    top: 1212px;
+}
+
+.support-card h4 {
+    position: absolute;
+    left: 120px;
+    top: 1225px;
+    color: var(--dark-green);
+}
+
+.h4p1 {
+    position: absolute;
+    left: 120px;
+    top: 1265px;
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.effort .gen-box {
+    position: absolute;
+    left: 450px;
+    top: 1195px;
+}
+
+.effort-icon {
+    position: absolute;
+    left: 463px;
+    top: 1205px;
+} 
+
+.effort-card h4 {
+    position: absolute;
+    left: 450px;
+    top: 1220px;
+    color: var(--dark-green);
+}
+
+.h4p2 {
+    position: absolute;
+    left: 450px;
+    top: 1260px;
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.rotate .gen-box {
+    position: absolute;
+    left: 120px;
+    top: 1400px;
+}
+
+.rotate-icon {
+    position: absolute;
+    left: 130px;
+    top: 1412px;
+}
+
+.rotate-card h4 {
+    position: absolute;
+    left: 120px;
+    top: 1425px;
+    color: var(--dark-green);
+}
+
+.h4p3 {
+    position: absolute;
+    left: 120px;
+    top: 1465px;
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.robot .gen-box {
+    position: absolute;
+    left: 450px;
+    top: 1395px;
+}
+
+.robot-icon {
+    position: absolute;
+    left: 463px;
+    top: 1405px;
+} 
+
+.robot-card h4 {
+    position: absolute;
+    left: 450px;
+    top: 1420px;
+    color: var(--dark-green);
+}
+
+.h4p4 {
+    position: absolute;
+    left: 450px;
+    top: 1460px;
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.right-wrap .golim-holder{
+    display: flexbox;
+}
+
+.golim {
+    position: absolute;
+    left: 796px;
+    top: 1000px;
+}
+
+.green-box {
+    display: flexbox;
+}
+
+.gbox {
+    position: absolute;
+    left: 1110px;
+    top: 1045px;
+}
+
+.small-c {
+    position: absolute;
+    left: 1145px;
+    top: 1075px;
+}
+
+.stock {
+    position: absolute;
+    left: 1167px;
+    top: 1095px;
+}
+
+.lineo {
+    position: absolute;
+    left: 1215px;
+    top: 1080px;
+}
+
+.linet {
+    position: absolute;
+    left: 1215px;
+    top: 1100px;
+}
+
+.proj-box {
+    display: flexbox;
+}
+
+.update2 {
+    position: absolute;
+    left: 800px;
+    top: 1380px;
+}
+
+.circle2 {
+    position: absolute;
+    left: 840px;
+    top: 1415px;
+}
+
+.circle2-content {
+    position: absolute;
+    left: 860px;
+    top: 1432px;
+}
+
+.proj-box h4 {
+    position: absolute;
+    left: 920px;
+    top: 1400px;
+    color: var(--dark-green);
+}
+
+.lineo1 {
+    position: absolute;
+    left: 920px;
+    top: 1445px;
+}
+
+.linet2 {
+    position: absolute;
+    left: 920px;
+    top: 1460px;
+}
+
+.help {
+    display: flexbox;
+    width: 1440px;
+    height: 910px;
+}
+
+.how {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    left: 480px;
+    top: 1820px;
+    color: var(--dark-green);
+}
+
+.pack {
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.tide {
+    position: absolute;
+    left: 350px;
+    top: 2090px;
+}
+
+.create {
+    position: absolute;
+    left: 140px;
+    top: 2000px;
+}
+
+.create h3 {
+    color: var(--dark-green);
+    font-size: 24px;
+}
+
+.create .cb {
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.colla {
+    position: absolute;
+    left: 590px;
+    top: 2020px;
+}
+
+.colla h3 {
+    color: var(--dark-green);
+    font-size: 24px;
+    top: 2220px;
+}
+
+.colla .cob {
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+.track {
+    position: absolute;
+    left: 1040px;
+    top: 2000px;
+}
+
+.track h3 {
+    color: var(--dark-green);
+    font-size: 24px;
+    top: 2140px;
+}
+
+.track .tb {
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+footer {
+    width: 1440px;
+    height: 405px;
+    background-color: #072125;
+    padding: 74px 0;
+    color: white;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+.relogo {
+    position: absolute;
+    left: 120px;
+}
+
+.one {
+    position: absolute;
+    left: 120px;
+    top: 2750px;
+}
+
+.two {
+    position: absolute;
+    left: 120px;
+    top: 2800px;
+}
+
+.three {
+    position: absolute;
+    left: 120px;
+    top: 2850px;
+}
+
+.sline {
+    position: absolute;
+    top: 2985px;
+}
+
+footer .links-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 600px;
+    margin: 0 -5px;
+}
+
+footer .foot {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 650px;
+    top: 2995px;
+}
